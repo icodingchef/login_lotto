@@ -30,7 +30,8 @@ class _LottoState extends State<Lotto> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Lotto app'),
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        title: const Text('Lottery app'),
       ),
       body: Center(
         child: ListView.separated(
